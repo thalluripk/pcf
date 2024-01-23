@@ -49,7 +49,7 @@ class Day extends Component {
       <td onClick={this.onClick} onMouseEnter={this.onHover} className={classes} title={title}>
         <card>
           <CardHeader style={cardHeaderStyles} header={ day === null ? '' : <Badge shape="rounded" color="informative"> {day.date()}</Badge>}></CardHeader>
-          <CardPreview>Event 1</CardPreview>
+          <CardPreview></CardPreview>
         </card>
 
       </td>
